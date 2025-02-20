@@ -8,7 +8,7 @@ const userSchema = mongoose.Schema({
     collegeName: {type: String, required: true},
     batchYear: {type: Number, required: true},
     email: {type: String, required: true, unique: true},
-    mobileNo: {type: String, required: true},
+    mobileNo: {type: Number, required: true},
     linkedinUrl: {type: String, required: true}
 },
 {
