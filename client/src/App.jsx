@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom";
-import HomePageComponent from "./components/HomePage/HomePage";
-import UserProfilePage from "./components/ProfilePage/UserProfile";
+import HomePageComponent from "./components/homePage/HomePage";
+import UserProfilePage from "./components/profilePage/ProfilePage";
 
 function App() {
   return (
